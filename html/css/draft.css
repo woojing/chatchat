@@ -1,0 +1,19 @@
+body {
+    width: 100%;
+}
+
+#room_list {
+    float: left;
+    width: 200px;
+}
+
+#communication_log {
+    float: left;
+    width: 70%;
+    border: 1px dashed black;
+}
+
+#head_bar {
+    width: 100%;
+    border: 1px solid red;
+}
