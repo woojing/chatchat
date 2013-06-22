@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p
+
+            <span></span>       <![endif]-->
+
+        <header>
+            <span>
+            안녕하세요 저는<span id="user_account">account</span> 입니다.
+            </span>
+        </header>
+
+        <div class="contents_container">
+            <aside>
+                <div>
+                    <form action="/list/search">
+                        <input type="text" name="chat_list_search" id="chat_list_search">
+                    </form>
+                </div>
+                <ul id='chat_list'>
+                    <li class="chat_each_list">each chat list</li>
+                    <li class="chat_each_list">each chat list</li>
+                    <li class="chat_each_list">each chat list</li>
+                    <li class="chat_each_list">each chat list</li>
+                    <li class="chat_each_list">each chat list</li>
+                </ul>
+            </aside>
+            <section id='chat_log'>
+                <header>
+                    <h1>chat title</h1>
+                    <h2>채팅참여자</h2>
+                    <ul class="chat_parti">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </header>
+                <div class="chat_container">
+                    <div class="chat_logs">
+                        <ul class="chat_list">
+                            <li>
+                                <div>
+                                    each chat information
+                                </div>
+                                <div>
+                                    each chat contents
+                                </div>
+                            </li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="chat_inputs">
+                        <form action="/chat/send">
+                            <input type="text" name="chat_message" id="chat_message">
+                            <input type="submit" value="전송">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            copy left. PM 김한기
+        </footer>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
